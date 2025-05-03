@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(52, 139, 239);
+  }
+
+.navbar-right {
+    margin-left: auto;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+.navbar-right button {
+background: none;
+border: none;
+font-size: 1rem;
+cursor: pointer;
+color: #333;
+}
+
+.navbar-right button:hover {
+color: #007BFF;
+}
