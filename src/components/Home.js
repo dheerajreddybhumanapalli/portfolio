@@ -12,36 +12,38 @@ export default function Home(){
                 </p>
                 Software Engineer
             </header>
-            <Card 
-                title="Project 1"
-                designation="Tech Stack 1"
-                duration="xxx xxxx – xxx xxxx"
-                description={[
-                    "Description point 1",
-                    "Description point 2",
-                    "Description point 3"
-                ]}
-            />
-            <Card 
-                title="Project 2"
-                designation="Tech Stack 2"
-                duration="xxx xxxx – xxx xxxx"
-                description={[
-                    "Description point 1",
-                    "Description point 2",
-                    "Description point 3"
-                ]}
-            />
-            <Card 
-                title="Project 3"
-                designation="Tech Stack 3"
-                duration="xxx xxxx – xxx xxxx"
-                description={[
-                    "Description point 1",
-                    "Description point 2",
-                    "Description point 3"
-                ]}
-            />
+            <div className='projects'>
+                <Card 
+                    title="Project 1"
+                    designation="Tech Stack 1"
+                    duration="xxx xxxx – xxx xxxx"
+                    description={[
+                        "Description point 1",
+                        "Description point 2",
+                        "Description point 3"
+                    ]}
+                />
+                <Card 
+                    title="Project 2"
+                    designation="Tech Stack 2"
+                    duration="xxx xxxx – xxx xxxx"
+                    description={[
+                        "Description point 1",
+                        "Description point 2",
+                        "Description point 3"
+                    ]}
+                />
+                <Card 
+                    title="Project 3"
+                    designation="Tech Stack 3"
+                    duration="xxx xxxx – xxx xxxx"
+                    description={[
+                        "Description point 1",
+                        "Description point 2",
+                        "Description point 3"
+                    ]}
+                />
+            </div>
         </div>
     )
 }
