@@ -16,6 +16,7 @@
     background: none;
     border: none;
     font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
     color: #333;
 }
