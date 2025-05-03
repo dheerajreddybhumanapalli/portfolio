@@ -1,19 +1,16 @@
-import logo from './profile_image.jpg'
 import './App.css';
+import Home from './components/Home';
 import { Navbar } from './components/Navbar';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Dheeraj Reddy Bhumanapalli
-        </p>
-        Software Engineer
-      </header>
-    </div>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
