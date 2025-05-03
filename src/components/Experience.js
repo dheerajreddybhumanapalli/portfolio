@@ -1,5 +1,4 @@
 import '../styles/Experience_Contact.css'
-// import ExperienceTimeline from './Timeline'
 import Card from './Card'
 
 export default function Experience(){
