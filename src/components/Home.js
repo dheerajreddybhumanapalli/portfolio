@@ -13,34 +13,35 @@ export default function Home(){
                 Software Engineer
             </header>
             <div className='projects'>
+                <h1>Projects worked on</h1>
                 <Card 
-                    title="Project 1"
-                    designation="Tech Stack 1"
-                    duration="xxx xxxx – xxx xxxx"
+                    title="Compliance Platform on Political Contributions"
+                    designation="Django, React, AWS, Postgres, Elastic Search, Celery, Redis, RabbitMQ, Scrapy, Selenium"
+                    duration="Feb 2025 – Present"
                     description={[
-                        "Description point 1",
-                        "Description point 2",
-                        "Description point 3"
+                        "Resolved critical production issues and documented key workflows in a legacy Django-React application with no prior documentation.",
+                        "Maintained and debugged a custom web scraping pipeline that collected political contribution data from public websites into Elasticsearch.",
+                        "Enforced data synchronization from Elasticsearch to AWS RDS triggered by platform object creation, improving data availability and consistency."
                     ]}
                 />
                 <Card 
-                    title="Project 2"
-                    designation="Tech Stack 2"
-                    duration="xxx xxxx – xxx xxxx"
+                    title="Intelligent Tutoring System with Adaptive Learning"
+                    designation="Langchain, Ollama, Scrapy, Guardrails, FastAPI, Streamlit"
+                    duration="Oct 2024 – Dec 2024"
                     description={[
-                        "Description point 1",
-                        "Description point 2",
-                        "Description point 3"
+                        "Developed an educational chatbot using RAG architecture with Chroma DB, custom Scrapy pipelines, and Guardrails to ensure safe, relevant content.",
+                        "Enhanced LLM response quality with React Agents and Chain of Thought Self-Consistency, and built automated quiz generation for learning assessment.",
+                        "Designed scalable RESTful APIs with FastAPI and built a user-friendly Streamlit interface for seamless interaction between backend and frontend."
                     ]}
                 />
                 <Card 
-                    title="Project 3"
-                    designation="Tech Stack 3"
-                    duration="xxx xxxx – xxx xxxx"
+                    title="LLM-Powered Data Pipeline with Observability and Monitoring in a Containerized Environment"
+                    designation="Pyspark, Flask, Langchain, OpenLIT, Jaeger, Prometheus, Grafana"
+                    duration="Mar 2024 – Jul 2024"
                     description={[
-                        "Description point 1",
-                        "Description point 2",
-                        "Description point 3"
+                        "Built an AWS-based Flask data pipeline using PySpark to process data and generate RAG-based LLM reports.",
+                        "Applied observability with OpenTelemetry (OpenLIT), Jaeger for tracing, and Prometheus-Grafana for real-time metrics and dashboards.",
+                        "Containerized and orchestrated multi-service architecture using Docker for scalable deployment."
                     ]}
                 />
             </div>
