@@ -1,6 +1,6 @@
 const experiences = [
     {
-        title: "PalTech Consulting Services Pvt. Ltd.",
+        title: "PalTech Consulting Pvt. Ltd.",
         roles: [
             {
                 designation:"Associate Software Engineer",
