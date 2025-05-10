@@ -16,5 +16,6 @@
 .projects {
     text-align: left;
     font-size: calc(10px + 1.5vmin);
+    margin-left: 10px;
     color: white;
 }

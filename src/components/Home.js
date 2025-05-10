@@ -1,6 +1,7 @@
 import logo from '../profile_image.jpg'
 import '../styles/Home.css'
-import Card from './Card'
+import projects from '../data/Projects'
+import CardList from './CardList'
 
 export default function Home(){
     return (
@@ -8,13 +9,13 @@ export default function Home(){
             <header className="home-header">
                 <img src={logo} className="home-logo" alt="logo" />
                 <p>
-                Dheeraj Reddy Bhumanapalli
+                Hi, I'm Dheeraj Reddy Bhumanapalli
                 </p>
                 Software Engineer
             </header>
             <div className='projects'>
                 <h1>Projects worked on</h1>
-                <Card 
+                {/* <Card 
                     title="Compliance Platform on Political Contributions"
                     roles={[
                         {
@@ -55,7 +56,8 @@ export default function Home(){
                             ]
                         }
                     ]}
-                />
+                /> */}
+                <CardList cards={ projects } />
             </div>
         </div>
     )

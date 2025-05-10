@@ -1,5 +1,6 @@
+import experiences from '../data/Experiences.js'
 import '../styles/Experience_Contact.css'
-import Card from './Card'
+import CardList from './CardList.js'
 
 export default function Experience(){
     return (
@@ -8,7 +9,7 @@ export default function Experience(){
                 <h1>Experience</h1>
             </div>
             <div className='card-wrapper'>
-                <Card 
+                {/* <Card 
                 title="PalTech Consulting Services Pvt. Ltd."
                 roles={[
                     {
@@ -43,7 +44,8 @@ export default function Experience(){
                         ]
                     }
                 ]}
-                />
+                /> */}
+                <CardList cards={ experiences }/>
             </div>
         </>
     )
