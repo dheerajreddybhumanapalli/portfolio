@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "echo '\\n  Local preview: http://localhost:3000/\\n' && next dev",
-    "build": "GITHUB_PAGES=true next build",
-    "start": "next start",
+    "build": "next build",
+    "build:pages": "GITHUB_PAGES=true next build",
+    "start": "echo '\\n  Production preview: http://localhost:3000/\\n  (Static export — use npm run dev for development)\\n' && npx serve@latest out -l 3000",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "predeploy": "npm run build:pages",
+    "deploy": "gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "clsx": "^2.1.1",
